@@ -14,3 +14,4 @@ int ReadNumber(string messageToUser)
 int a = ReadNumber("напишите А");
 int b = ReadNumber("напишите Б");
 Console.WriteLine(Math.Pow(a,b));
+// commit

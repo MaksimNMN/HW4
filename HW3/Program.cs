@@ -39,6 +39,6 @@ void PrintArray(int[] array)
 int length = Prompt("длинна массива");
 int min = Prompt("Начальное значение, для дипазона случайного числа: ");
 int max = Prompt("Конечное значение, для дипазона случайного числа: ");
-int [] array = GenerateArray(length, min, max); // заполнение массива случайными числами
+int[] array = GenerateArray(length, min, max); // заполнение массива случайными числами
 PrintArray(array);
 
