@@ -14,12 +14,13 @@ Console.WriteLine("Здраствуйте!");
 Console.WriteLine("Введите размер квадратного массива");
 int massVol = Convert.ToInt32(Console.ReadLine());
 
-int[,] numbers = new int[massVol, massVol];
+int[,] numbers = { { 0, 0, 0, 0 }, { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { -1, 0, 0, 0 } };
 FillArrayRandomNumbers(numbers);
 
 PrintArray(numbers);
 int minsum = Int32.MaxValue;
 int indexLine = 0;
+
 
 for (int i = 0; i < numbers.GetLength(0); i++)
 {
